@@ -1,0 +1,45 @@
+h1{
+   color: #04708c;;
+}
+p{
+  margin-left:20px;
+}
+*{
+  border:1px solid #e8f044;
+}
+a{
+
+}
+.intro{
+	font: 40px Garamond ;
+	font-weight: bolder;
+}
+.menu{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+a:link{
+	background-color: coral;
+	color: cornsilk;
+}
+a:visited{
+	background-color: darkmagenta;
+	color: darkturquoise;
+}
+.menuitem{
+	position: relative;
+}
+.menuitem p{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-70%,-90%);
+	opacity: 0;	
+}
+.menuitem:hover p{
+	opacity: 1;
+}
+.menuitem:hover img{
+	opacity: 0.33;
+}
